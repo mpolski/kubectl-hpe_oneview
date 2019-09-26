@@ -16,7 +16,7 @@ OV_PASSWORD=<your password>
 OV_AUTHLOGINDOMAIN=<domain> //optional, can be empty
 OV_PROFILETEMPLATE=<template_name>
 ```
-* if you don't want to install Go and git you can download the compiled plugin from [here](https://github.com/mpolski/kubectl-hpe_oneview/tree/master/plugin)
+*if you don't want to install Go and git you can download the compiled plugin from [here](https://github.com/mpolski/kubectl-hpe_oneview/tree/master/plugin)
 
 ### Instructions:
 1. clone this repo.
