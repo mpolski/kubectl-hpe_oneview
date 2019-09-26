@@ -1,12 +1,13 @@
 # kubectl-hpe_oneview
-kubectl extension plugin for HPE OneView example
+## [kubectl extension plugin](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/) for [HPE OneView](https://www.hpe.com/us/en/integrated-systems/software.html) example.
 
-This is a demonstration of wiring Kubernetes kubectl extenstion plugin to view some of the physical infrastructure parameters of HPE OneView API and [Go Language bindings](https://github.com/HewlettPackard/oneview-golang) with some additions.
+This is a demonstration of writing Kubernetes kubectl extenstion plugin to view some of the physical infrastructure parameters of [HPE Synergy](https://www.hpe.com/pl/en/integrated-systems/synergy.html) hardware platform via HPE OneView API and [Go Language bindings](https://github.com/HewlettPackard/oneview-golang) from with some additions.
 
-Here's the instruction to test this in one's environment:
+Here's the instructions to test this in one's environment:
 
 ### Prerequsites:
-1. Access to HPE Synergy with Server Profile Template that is used to craete profiles that will run Kubernetes nodes.
+1. Install Go and git
+2. Access to HPE Synergy with Server Profile Template that is used to craete profiles that will run Kubernetes nodes.
 2. Set the following environment variables:
 ```
 OV_ENDPOINT=<e.g. https://....>
