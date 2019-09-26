@@ -6,7 +6,7 @@ This is a demonstration of writing Kubernetes kubectl extenstion plugin to view 
 Here's the instructions to test this in one's environment:
 
 ### Prerequsites:
-1. Install Go and git
+1. Install Go and git*
 2. Access to HPE Synergy with Server Profile Template that is used to craete profiles that will run Kubernetes nodes.
 2. Set the following environment variables:
 ```
@@ -16,6 +16,7 @@ OV_PASSWORD=<your password>
 OV_AUTHLOGINDOMAIN=<domain> //optional, can be empty
 OV_PROFILETEMPLATE=<template_name>
 ```
+* if you don't want to install Go and git you can download the compiled plugin from [here](https://github.com/mpolski/kubectl-hpe_oneview/tree/master/plugin)
 
 ### Instructions:
 1. clone this repo.
